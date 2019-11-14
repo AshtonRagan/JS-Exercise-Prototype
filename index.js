@@ -110,9 +110,9 @@ Baby.prototype.play = function() {
   In your own words explain the four principles for the "this" keyword below:
   1.  in global scope "this" refers to the window./
   2. when called in a function the object befor the dot is "this"
-  3. Whenever a constructor function is used, this refers to the specific instance of the object that is created and returned by the constructor function.
-  4. Whenever JavaScript’s call or apply method is used, this is explicitly defined.
-*/
+  3. Whenever a constructor function is used, this refers to the specific instance of the object that is created and returned by the constructor function. this is new binding
+  4. Whenever JavaScript’s call or apply method is used, this is explicitly defined. explict binding.
+ t*/
 
 ///////// END OF CHALLENGE /////////
 ///////// END OF CHALLENGE /////////
